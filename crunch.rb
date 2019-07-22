@@ -4,5 +4,7 @@ require 'byebug'
   lib/flatten
 ].each { |file| require_relative file.to_s }
 
-arr=[1, 2, 3, [1, 2, 3,[4]]]
-puts Crunch::Array.flatten(arr)
+# TODO: read input from console
+puts Crunch::Array.flatten([1,[2,3],4]).to_s
+puts Crunch::Array.flatten([[1],[2,3],4]).to_s
+puts Crunch::Array.flatten([[1,[2,3],4]]).to_s
