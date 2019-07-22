@@ -20,5 +20,5 @@
 ### Install gems with bundler
 * bundle install
 
-### Crunch Runner
-* ruby runner.rb
+### run crunch
+* ruby crunch.rb
