@@ -3,7 +3,7 @@ module Crunch
     extend self
 
     def flatten(arr=[])
-      return arr.to_s
+      return arr.flatten
     end
   end
 end
