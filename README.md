@@ -5,8 +5,8 @@
 * https://rvm.io/
 
 ### Clone the repo
-* git clone [REPO NAME HERE]
-* cd into the repo
+* git clone [REPO NAME]
+* cd [REPO NAME]
 
 ### Configure the application ruby and gemset using rvm
 
@@ -16,6 +16,9 @@
 * rvm 2.5.1@crunch do gem list
 * rvm --default use 2.5.1
 * rvm 2.5.1@crunch do gem install bundler
+* rvm 2.5.1@crunch do gem install rspec
+* rvm 2.5.1@crunch do gem install byebug
+* rvm 2.5.1@crunch do gem install rubocop
 
 ### Install gems with bundler
 * bundle install
