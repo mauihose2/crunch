@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
+# Crunch
 module Crunch
+  # Array
   module Array
     extend self
 
