@@ -1,10 +1,10 @@
-# frozen_string_literal: true
+# froz<F10>en_string_literal: true
 
 require 'spec_helper'
 
 RSpec.describe Crunch::Array.flatten do
   # TODO: add more comprehensive specs
-  it 'it flattens arrays' do
+  it 'flattens arrays' do
     a1 = [1, [2, 3], [4], 5]
     a2 = [1, 2, 3, [4, 5]]
     a3 = [[1], [2], [3], [4], [5]]
